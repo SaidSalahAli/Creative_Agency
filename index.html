@@ -23,12 +23,12 @@
   </head>
 
   <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <!-------------------- Start Code Nav Bar -------------------->
+    <nav class="navbar navbar-expand-lg sticky-top position-fixed t-0 w-100">
       <div class="container d-flex">
-        <a class="navbar-brand logo" href="#">MA<span>X</span>ON</a>
+        <a class="navbar-brand" href="#">MA<span>X</span>ON</a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler text-decoration-none"
           type="button"
           id="menuToggle"
           data-bs-toggle="collapse"
@@ -36,8 +36,8 @@
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation">
-          <div class="menu">
-            <li>
+          <div dir="rtl" class="menu d-flex justify-content-end">
+            <li class="d-block">
               <div class="bar"></div>
               <div class="bar2"></div>
               <div class="bar"></div>
@@ -50,7 +50,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link text-decoration-none" href="#"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
@@ -73,8 +73,9 @@
         </div>
       </div>
     </nav>
+    <!-------------------- End Code Nav Bar -------------------->
 
-    <!-- section1 -->
+    <!-------------------- Start Section 1 -------------------->
     <section
       class="row d-flex flex align-items-center justify-content-center section">
       <div class="container container-content col-5 col-md-5 col-sm-12">
@@ -118,13 +119,17 @@
         </div>
       </div>
     </section>
+    <!-------------------- End Section 1 -------------------->
 
-    <!-- section2 -->
+    <!-------------------- Start Section 2 -------------------->
+
     <section
       class="section2 d-flex flex-wrap justify-content-start align-items-center row">
       <div
         class="min-img d-flex justify-content-center col-10 col-md-7 col-sm-12 col-lg-7 mt-5">
-        <div class="row container-img">
+        <div
+          class="row container-img d-flex justify-content-center"
+          style="width: 70%">
           <div class="container-img1 d-flex align-items-end col-6 mt-3">
             <img src="/img/img2.jpg" class="w-100 img1" alt="" />
           </div>
@@ -135,12 +140,12 @@
         </div>
       </div>
       <div
-        class="text-content container col-12 col-md-5 col-lg-5 col-sm-12 d-flex justify-content-start justify-content-lg-start mt-5 mb-5">
+        class="text-content container col-12 col-md-5 col-lg-5 col-sm-12 d-flex justify-content-start justify-content-lg-start mt-5">
         <div class="section-content">
-          <h6>Creative Agency</h6>
+          <h6>About our company</h6>
           <h2>
-            Building Brand is <br />
-            Our Business
+            Marke the customer<br />
+            the hero of your story
           </h2>
           <p class="text-black-100">
             Can days you'll forth two grass from face you saying, subdue days<br />
@@ -152,22 +157,32 @@
             forth two grass from face you saying, Can days you'll forth two<br />
             grass from face you saying,
           </p>
-          <button class="btn">VIEW PROJECT</button>
+          <button class="btn">LEARN MORE</button>
         </div>
       </div>
     </section>
-    <!--  section3 cart-->
-    <section class="section3-cart">
+    <!-------------------- End Section 2 -------------------->
+    <!-------------------- Start Section 3 -------------------->
+    <section class="section3 h-auto mt-5">
       <div class="container text-center">
         <div class="title">
-          <h6>Creative Agency</h6>
-          <h2>Building Brand is Our Business</h2>
+          <h6>Speclal features</h6>
+          <h2>Advertising With Difference</h2>
         </div>
         <div
           class="container-cart mb-5 d-flex flex-wrap justify-content-center justify-content-lg-between">
-          <div class="card d-flex justify-content-center" style="width: 12rem">
+          <div
+            class="card d-flex m-3 justify-content-center"
+            style="width: 12rem">
             <div class="content-i mt-4">
-              <i class="fa-regular fa-pen-to-square"></i>
+              <i
+                class="fa-regular fa-pen-to-square"
+                style="
+                  padding: 20px;
+                  color: #ffb40d;
+                  background-color: #ffeee2;
+                  border-radius: 50%;
+                "></i>
             </div>
             <div class="card-body">
               <h5>Some quick example</h5>
@@ -177,7 +192,9 @@
               </p>
             </div>
           </div>
-          <div class="card d-flex justify-content-center" style="width: 12rem">
+          <div
+            class="card d-flex m-3 justify-content-center"
+            style="width: 12rem">
             <div class="content-i mt-4">
               <i
                 class="fa-regular fa-pen-to-square"
@@ -196,7 +213,9 @@
               </p>
             </div>
           </div>
-          <div class="card d-flex justify-content-center" style="width: 12rem">
+          <div
+            class="card d-flex m-3 justify-content-center"
+            style="width: 12rem">
             <div class="content-i mt-4">
               <i
                 class="fa-solid fa-lock"
@@ -215,7 +234,9 @@
               </p>
             </div>
           </div>
-          <div class="card d-flex justify-content-center" style="width: 12rem">
+          <div
+            class="card d-flex m-3 justify-content-center"
+            style="width: 12rem">
             <div class="content-i mt-4">
               <i
                 class="fa-solid fa-headset"
@@ -237,22 +258,20 @@
         </div>
       </div>
     </section>
-    <!--section4  -->
+    <!-------------------- End Section 3 -------------------->
+    <!-------------------- Start Section 4 -------------------->
     <section class="section4 row">
       <div class="container title text-center mt-5">
-        <h6>Creative Agency</h6>
-        <h2>Building Brand is Our Business</h2>
+        <h6>client work experience</h6>
+        <h2>Recent Creative Work</h2>
       </div>
       <div
         class="container d-flex d-flex flex-wrap flex-column-reverse flex-lg-row flex-md-row justify-content-between align-items-center col-12">
         <div
-          class="text-content col-12 col-md-5 col-lg-4 col-sm-12 d-flex justify-content-start justify-content-lg-strat mt-5 mb-5">
+          class="text-content col-12 col-md-5 col-lg-4 col-sm-12 d-flex justify-content-start justify-content-lg-strat mt-5">
           <div class="section-content order-sm-1 order-md-1">
-            <h6>Creative Agency</h6>
-            <h2>
-              Building Brand is <br />
-              Our Business
-            </h2>
+            <h6>abstract design</h6>
+            <h2>For You beast you herd she would two you are</h2>
             <p class="text-black-50">
               Can days you'll forth two grass from face you saying, subdue
               days<br />
@@ -260,7 +279,37 @@
               forth two grass from face you saying, Can days you'll forth two<br />
               grass from face you saying,
             </p>
-            <button class="btn">VIEW PROJECT</button>
+            <button class="btn">
+              VIEW PROJECT
+              <svg
+                fill="#000000"
+                width="20px"
+                height="20px"
+                viewBox="0 0 24.00 24.00"
+                id="right-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon line"
+                transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)">
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    id="primary"
+                    d="M3,12H21m-3,3,3-3L18,9"
+                    style="
+                      fill: none;
+
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                    " />
+                </g>
+              </svg>
+            </button>
           </div>
         </div>
 
@@ -290,13 +339,10 @@
           </div>
         </div>
         <div
-          class="text-content col-12 col-md-5 col-lg-4 col-sm-12 d-flex justify-content-start justify-content-lg-strat mt-5 mb-5">
+          class="text-content col-12 col-md-5 col-lg-4 col-sm-12 d-flex justify-content-start justify-content-lg-strat mt-5">
           <div class="section-content order-sm-1 order-md-1">
-            <h6>Creative Agency</h6>
-            <h2>
-              Building Brand is <br />
-              Our Business
-            </h2>
+            <h6>Digital design</h6>
+            <h2>Green eath him and us whose bring us behold whales</h2>
             <p class="text-black-50">
               Can days you'll forth two grass from face you saying, subdue
               days<br />
@@ -304,20 +350,47 @@
               forth two grass from face you saying, Can days you'll forth two<br />
               grass from face you saying,
             </p>
-            <button class="btn">VIEW PROJECT</button>
+            <button class="btn">
+              VIEW PROJECT
+              <svg
+                fill="#000000"
+                width="20px"
+                height="20px"
+                viewBox="0 0 24.00 24.00"
+                id="right-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon line"
+                transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)">
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    id="primary"
+                    d="M3,12H21m-3,3,3-3L18,9"
+                    style="
+                      fill: none;
+
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                    " />
+                </g>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
       <div
         class="container d-flex d-flex flex-wrap flex-column-reverse flex-lg-row flex-md-row justify-content-between align-items-center col-12">
         <div
-          class="text-content col-12 col-md-5 col-lg-4 col-sm-12 d-flex justify-content-start justify-content-lg-strat mt-lg-5 mb-lg-5 mt-lg-5 mb-lg-5">
+          class="text-content col-12 col-md-5 col-lg-4 col-sm-12 d-flex justify-content-start justify-content-lg-strat mt-lg-5 mb-lg-5 mt-lg-5 mt-5 mb-lg-5">
           <div class="section-content order-sm-1 order-md-1">
-            <h6>Creative Agency</h6>
-            <h2>
-              Building Brand is <br />
-              Our Business
-            </h2>
+            <h6>graphic design</h6>
+            <h2>Saw to fill that the beast water winged so fruitful tree</h2>
             <p class="text-black-50">
               Can days you'll forth two grass from face you saying, subdue
               days<br />
@@ -325,7 +398,37 @@
               forth two grass from face you saying, Can days you'll forth two<br />
               grass from face you saying,
             </p>
-            <button class="btn">VIEW PROJECT</button>
+            <button class="btn">
+              VIEW PROJECT
+              <svg
+                fill="#000000"
+                width="20px"
+                height="20px"
+                viewBox="0 0 24.00 24.00"
+                id="right-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon line"
+                transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)">
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round" />
+
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    id="primary"
+                    d="M3,12H21m-3,3,3-3L18,9"
+                    style="
+                      fill: none;
+
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                    " />
+                </g>
+              </svg>
+            </button>
           </div>
         </div>
 
@@ -342,16 +445,19 @@
         </div>
       </div>
     </section>
-    <!--section5  -->
+    <!-------------------- Start Section 4 -------------------->
+
+    <!-------------------- Start Section 5 -------------------->
     <section>
-      <div class="section5 d-flex align-items-center justify-content-between">
-        <div class="container d-flex justify-content-between">
+      <div
+        class="section5 mt-5 d-flex align-items-center justify-content-between">
+        <div class="container d-flex flex-wrap justify-content-around">
           <div class="content h-100">
             <i
-            class="fa-solid fa-graduation-cap"
+              class="fa-solid fa-graduation-cap"
               style="font-size: 35px; margin-left: 3px; color: #ffb40d"></i>
             <div class="text d-flex justify-content-start">
-              <span>92</span>
+              <span id="satisfiedClients">0</span>
               <h3>satisfld <br />clint</h3>
             </div>
           </div>
@@ -361,7 +467,7 @@
               style="font-size: 35px; margin-left: 3px; color: #ff405c"></i>
 
             <div class="text d-flex justify-content-start">
-              <span>85</span>
+              <span id="totalProjects">0</span>
               <h3>total <br />project</h3>
             </div>
           </div>
@@ -371,7 +477,7 @@
               style="font-size: 35px; margin-left: 3px; color: #33deae"></i>
 
             <div class="text d-flex justify-content-start">
-              <span>67</span>
+              <span id="workCompleted1">0</span>
               <h3>work <br />completed</h3>
             </div>
           </div>
@@ -382,14 +488,491 @@
               style="font-size: 35px; margin-left: 3px; color: #f4248d"></i>
 
             <div class="text d-flex justify-content-start">
-              <span>85</span>
+              <span id="workCompleted2">0</span>
               <h3>work <br />completed</h3>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-------------------- End Section 5 -------------------->
 
+    <!-------------------- Start Section 6 -------------------->
+
+    <section class="section6 row">
+      <div class="container title text-center mt-5">
+        <h6>testimonials</h6>
+        <h2>Happy Client Says</h2>
+      </div>
+
+      <div
+        class="container d-flex d-flex flex-wrap flex-lg-row flex-md-row justify-content-between align-items-center mt-5 col-12">
+        <div
+          class="min-img1 d-flex align-items-center justify-content-center justify-content-lg-start col-10 col-md-7 col-sm-12 col-lg-7">
+          <div class="row container-img d-flex justify-content-center">
+            <div class="container-img1 d-flex col-6 mt-3">
+              <img
+                src="/img/img14.jpg"
+                class="w-100 img1 object-fit-cover"
+                alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-content col-12 col-md-5 col-lg-5 col-sm-12 d-flex justify-content-start justify-content-lg-strat">
+          <div class="section-content order-sm-1 order-md-1">
+            <div class="arrow d-flex justify-content-start">
+              <img src="img/profile.jpg " class="rounded-circle" alt="" />
+              <div class="arrows d-flex align-items-center ms-4">
+                <div class="arro-left">
+                  <svg
+                    fill="#000000"
+                    width="20px"
+                    height="20px"
+                    viewBox="0 0 24.00 24.00"
+                    id="right-arrow"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line"
+                    transform="matrix(-1, 0, 0, 1, 0, 0)rotate(0)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        id="primary"
+                        d="M3,12H21m-3,3,3-3L18,9"
+                        style="
+                          fill: none;
+                          stroke: #000000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                        "></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="daire"></div>
+                <div class="arrow-right">
+                  <svg
+                    fill="#000000"
+                    width="20px"
+                    height="20px"
+                    viewBox="0 0 24.00 24.00"
+                    id="right-arrow"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon line"
+                    transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round" />
+
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        id="primary"
+                        d="M3,12H21m-3,3,3-3L18,9"
+                        style="
+                          fill: none;
+                          stroke: #000000;
+                          stroke-linecap: round;
+                          stroke-linejoin: round;
+                        " />
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <p class="text-black-50">
+              Can days you'll forth two grass from face you saying, subdue days
+              light whose. stras creepeth that creatuer thing Can days you'll
+              forth two grass from face you saying, Can days you'll forth two
+              grass from face you saying,
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------- End Section 6 -------------------->
+
+    <!-------------------- Start Section 7 -------------------->
+
+    <section class="section7 row">
+      <div class="container title text-center mt-5">
+        <h6>Team Memmber</h6>
+        <h2>Our Experieced Team</h2>
+      </div>
+      <div
+        class="container container-carts d-flex flex-wrap justify-content-center justify-content-lg-center mt-5">
+        <div
+          class="card m-3 border-opacity-10"
+          style="width: 17rem; padding: 10px">
+          <img
+            src="/img/img6.jpg"
+            class="card-img-top"
+            style="height: 35vh; width: 40; object-fit: cover"
+            alt="..." />
+          <div class="card-body text-center">
+            <h4>Deborah Parkes</h4>
+            <p
+              class="text-black-50 text-center"
+              style="margin-top: 7px; margin-bottom: 0px">
+              software developer
+            </p>
+          </div>
+          <div class="media d-flex justify-content-center">
+            <ul class="d-flex justify-content-between p-0">
+              <li
+                class="text-black-50"
+                style="
+                  margin-left: 0px;
+                  list-style-type: none;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-decoration: none;
+                ">
+                facebook
+              </li>
+              <li
+                class="text-black-50"
+                style="
+                  margin-left: 26px;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-decoration: none;
+                ">
+                twitter
+              </li>
+              <li
+                class="text-black-50"
+                style="
+                  margin-left: 26px;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-decoration: none;
+                ">
+                skype
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="card m-3 border-opacity-10"
+          style="width: 17rem; padding: 10px">
+          <img
+            src="/img/img7.jpg"
+            class="card-img-top"
+            style="height: 35vh; width: 40; object-fit: cover"
+            alt="..." />
+          <div class="card-body text-center">
+            <h4>Kathrn Patrick</h4>
+            <p
+              class="text-black-50 text-center"
+              style="margin-top: 7px; margin-bottom: 0px">
+              software developer
+            </p>
+          </div>
+          <div class="media d-flex justify-content-center">
+            <ul class="d-flex justify-content-between p-0">
+              <li
+                class="text-black-50"
+                style="
+                  margin-left: 0px;
+                  list-style-type: none;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-decoration: none;
+                ">
+                facebook
+              </li>
+              <li
+                class="text-black-50"
+                style="
+                  margin-left: 26px;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-decoration: none;
+                ">
+                twitter
+              </li>
+              <li
+                class="text-black-50"
+                style="
+                  margin-left: 26px;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-decoration: none;
+                ">
+                skype
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="card m-3 border-opacity-10"
+          style="width: 17rem; padding: 10px">
+          <img
+            src="/img/img8.jpg"
+            class="card-img-top"
+            style="height: 35vh; width: 40; object-fit: cover"
+            alt="..." />
+          <div class="card-body text-center">
+            <h4>Wendy Frazier</h4>
+            <p
+              class="text-black-50 text-center"
+              style="margin-top: 7px; margin-bottom: 0px">
+              software developer
+            </p>
+          </div>
+          <div class="media d-flex justify-content-center">
+            <ul class="d-flex justify-content-between p-0">
+              <li
+                class="text-black-50"
+                style="
+                  margin-left: 0px;
+                  list-style-type: none;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-decoration: none;
+                ">
+                facebook
+              </li>
+              <li
+                class="text-black-50"
+                style="
+                  margin-left: 26px;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-decoration: none;
+                ">
+                twitter
+              </li>
+              <li
+                class="text-black-50"
+                style="
+                  margin-left: 26px;
+                  font-size: 10px;
+                  font-weight: 600;
+                  text-decoration: none;
+                ">
+                skype
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------- End Section 7 -------------------->
+    <!-------------------- Start Section 8 -------------------->
+
+    <section class="section8 row">
+      <div class="container title text-center mt-5">
+        <h6>latest news</h6>
+        <h2>Latest From Blog</h2>
+      </div>
+      <div
+        class="container container-carts d-flex flex-wrap justify-content-center justify-content-lg-center mt-5">
+        <div class="card m-3 border-opacity-10" style="width: 17rem">
+          <img
+            src="/img/img13.jpg"
+            class="card-img-top"
+            style="height: 35vh; width: 40; object-fit: cover"
+            alt="..." />
+          <div class="card-body">
+            <p
+              class="text-black-50 text-uppercase"
+              style="margin-top: 7px; margin-bottom: 0px">
+              design | july 17,2019
+            </p>
+            <h4 class="mt-2">Said Salah Some quick example Some example</h4>
+
+            <div class="interaction d-flex justify-content-start">
+              <div class="comment me-3 d-flex align-items-center">
+                <i class="fa-regular fa-comment me-2"></i>
+                <p class="text-black-50 text-uppercase">4 commint</p>
+              </div>
+              <div class="like d-flex align-items-center">
+                <i class="fa-regular fa-heart me-2"></i>
+                <p class="text-black-50 text-uppercase">15 Like</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 border-opacity-10" style="width: 17rem">
+          <img
+            src="/img/img12.jpg"
+            class="card-img-top"
+            style="height: 35vh; width: 40; object-fit: cover"
+            alt="..." />
+          <div class="card-body">
+            <p
+              class="text-black-50 text-uppercase"
+              style="margin-top: 7px; margin-bottom: 0px">
+              design | july 17,2019
+            </p>
+            <h4 class="mt-2">Said Salah Some quick example Some example</h4>
+
+            <div class="interaction d-flex justify-content-start">
+              <div class="comment me-3 d-flex align-items-center">
+                <i class="fa-regular fa-comment me-2"></i>
+                <p class="text-black-50 text-uppercase">4 commint</p>
+              </div>
+              <div class="like d-flex align-items-center">
+                <i class="fa-regular fa-heart me-2"></i>
+                <p class="text-black-50 text-uppercase">15 Like</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 border-opacity-10" style="width: 17rem">
+          <img
+            src="/img/img11.jpg"
+            class="card-img-top"
+            style="height: 35vh; width: 40; object-fit: cover"
+            alt="..." />
+          <div class="card-body">
+            <p
+              class="text-black-50 text-uppercase"
+              style="margin-top: 7px; margin-bottom: 0px">
+              design | july 17,2019
+            </p>
+            <h4 class="mt-2">Said Salah Some quick example Some example</h4>
+
+            <div class="interaction d-flex justify-content-start">
+              <div class="comment me-3 d-flex align-items-center">
+                <i class="fa-regular fa-comment me-2"></i>
+                <p class="text-black-50 text-uppercase">4 commint</p>
+              </div>
+              <div class="like d-flex align-items-center">
+                <i class="fa-regular fa-heart me-2"></i>
+                <p class="text-black-50 text-uppercase">15 Like</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------- Start Section 9 -------------------->
+
+    <!--------------------Start Footer -------------------->
+
+    <footer class="text-center text-lg-start text-white">
+      <section class="mt-5">
+        <div class="container text-center text-md-start pb-5">
+          <!-- Grid row -->
+          <div class="row pt-5">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <a class="navbar-brand logo" href="#">MA<span>X</span>ON</a>
+
+              <p class="text-white-50">
+                content.Lorem ipsum dolor sit amet, consectetur adipisicing
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h4>Our Service</h4>
+
+              <p></p>
+              <p style="margin-top: 21px">
+                <a href="#!" class="text-white-50 text-decoration-none"
+                  >MDWordPress</a
+                >
+              </p>
+              <p>
+                <a href="#!" class="text-white-50 text-decoration-none"
+                  >BrandFlow</a
+                >
+              </p>
+              <p>
+                <a href="#!" class="text-white-50 text-decoration-none"
+                  >Bootstrap Angular</a
+                >
+              </p>
+              <p>
+                <a href="#!" class="text-white-50 text-decoration-none"
+                  >MDWordPress</a
+                >
+              </p>
+              <p>
+                <a href="#!" class="text-white-50 text-decoration-none"
+                  >BrandFlow</a
+                >
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mb-4">
+              <!-- Links -->
+              <h4>Instagram feed</h4>
+              <div class="footer-img row" style="margin-top: 21px">
+                <div class="col-4">
+                  <img src="/img/benner.jpg" class="w-100" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="/img/benner.jpg" class="w-100" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="/img/benner.jpg" class="w-100" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="/img/benner.jpg" class="w-100" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="/img/benner.jpg" class="w-100" alt="" />
+                </div>
+                <div class="col-4">
+                  <img src="/img/benner.jpg" class="w-100" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h4>Countact Info</h4>
+              <p style="margin-top: 21px" class="text-white-50">
+                <i class="fas fa-home mr-3"></i> New York, NY 10012, US
+              </p>
+              <p class="text-white-50">
+                <i class="fas fa-envelope mr-3"></i> info@example.com
+              </p>
+              <p class="text-white-50">
+                <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+              </p>
+              <p class="text-white-50">
+                <i class="fas fa-print mr-3"></i> + 01 234 567 89
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+
+      <div
+        class="text-center text-white-50 p-3"
+        style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+    </footer>
+    <!--------------------End Footer -------------------->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
     <script src="scribt.js"></script>
