@@ -286,11 +286,11 @@ p {
   font-weight: 700;
 }
 .section3 .card {
+  width: 12rem;
   margin-top: 50px;
   border: 1px solid rgba(0, 0, 0, 0.062);
 }
 /*-------------- End Section 3 --------------*/
-
 
 /*-------------- Start Section 4 --------------*/
 .section4 .min-img {
@@ -338,7 +338,6 @@ p {
 }
 
 /*-------------- end Section 5 --------------*/
-
 
 /*-------------- Start Section 6 --------------*/
 
@@ -406,6 +405,10 @@ p {
   cursor: pointer;
   color: var(--yellow-color);
 }
+.section7 .card {
+  width: 17rem;
+  padding: 10px;
+}
 /*-------------- End Section 7 --------------*/
 
 /*-------------- Start Section 8 --------------*/
@@ -419,6 +422,9 @@ p {
   font-size: 16px;
   font-weight: 700;
   color: var(--text-color);
+}
+.section8 .card {
+  width: 17rem;
 }
 /*-------------- End Section 8 --------------*/
 
@@ -463,7 +469,6 @@ footer .col-4 {
   }
   .section .container-content {
     width: 70%;
-
   }
   .section .section-content h1 {
     font-size: 20px;
@@ -476,7 +481,6 @@ footer .col-4 {
   .section4 .min-img {
     position: relative;
     width: -webkit-fill-available;
-
   }
   .section4 .min-img1 {
     width: -webkit-fill-available;
@@ -670,7 +674,6 @@ footer .col-4 {
   }
 }
 
-
 @media only screen and (min-width: 768px) {
   .point2 {
     box-shadow: 99px -150px 20px 20px var(--yellow-color);
@@ -699,7 +702,6 @@ footer .col-4 {
   }
 }
 
-
 @media only screen and (min-width: 992px) {
   .section2 .container-img h2 {
     font-size: revert;
@@ -713,7 +715,6 @@ footer .col-4 {
     object-fit: cover;
   }
 }
-
 
 @media only screen and (min-width: 1200px) {
   .section2 .container-img1 {
@@ -761,12 +762,63 @@ footer .col-4 {
   }
 }
 @media only screen and (min-width: 1700px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+  .navbar .navbar-brand {
+    font-size: 33px;
+  }
   .section6 .container-img1,
   .section4 .container-img1 {
     width: 95%;
     margin-bottom: 50px;
     height: 40vh;
     object-fit: cover;
+  }
+  h6 {
+    font-size: 17px;
+    color: var(--yellow-color);
+  }
+  h2 {
+    font-size: 51px;
+  }
+  p {
+    text-align: justify;
+    margin: 20px 0;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .section .section-content h1 {
+    font-size: 66px;
+  }
+  .section .section-content button,
+  .section2 .section-content button {
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 20px 20px;
+  }
+  .section4 .text-content h2 {
+    font-size: 44px;
+  }
+  .section8 .card,
+  .section7 .card {
+    width: 27rem;
+  }
+  .section3 .card {
+    width: 20rem;
+  }
+  .section4 .section-content button {
+    font-size: 16px;
+  }
+  .section5 .content h3 {
+    font-size: 21px;
+  }
+  .section5 .content span {
+    font-size: 47px;
+  }
+  .section8 h4 {
+    font-size: 20px;
   }
 }
 
